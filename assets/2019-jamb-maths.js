@@ -372,7 +372,7 @@ function startQuiz(questCount) {
     }
     else {
         if (scoreCount == 0) {
-            document.querySelector('#question-container').innerHTML = 'You scored '+ scoreCount + ' out of ' + questCount;
+            document.querySelector('#question-container').innerHTML = 'No answers yet';
             questionScoreContainer.style.display = 'none';
             optionsContainer.style.display = 'none';
             scoreContainer.style.display = 'none';
@@ -382,7 +382,7 @@ function startQuiz(questCount) {
         }
         else {
             scoreCount--;
-            document.querySelector('#question-container').innerHTML = 'You scored '+ scoreCount + ' out of ' + questCount;
+            document.querySelector('#question-container').innerHTML = 'No answers yet';
             questionScoreContainer.style.display = 'none';
             optionsContainer.style.display = 'none';
             scoreContainer.style.display = 'none';
