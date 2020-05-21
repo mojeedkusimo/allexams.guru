@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: darkgreen;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -43,12 +43,14 @@ body {
 
 .options-container {
     display: none;
+/* background-color: green; */
 }
 
-.option-a, .option-b, .option-c {
+.option-a, .option-b, .option-c, .option-d {
     border-radius: 10px;
     padding: 5px;
     cursor: pointer;
+    /* background-color: greenyellow; */
 }
 
 .controls-container {
@@ -56,8 +58,8 @@ body {
     justify-content: center;
 }
 
-#try-again, #next, #start {
-    background-color: black;
+#try-again, #next, #start, #previous {
+    background-color: darkgreen;
     color: white;
     margin: 5px;
     padding: 10px;
@@ -65,10 +67,14 @@ body {
     cursor: pointer;
 }
 
-#try-again, #next {
+#try-again, #next, #previous {
     display: none;
 }
 
 #quest-n-score-container {
     display: none;
+}
+
+#question-image {
+    text-align: center;
 }
