@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALLEXAMS.GURU | Home</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="full-page">
+        <div class="main-section">
+            <div id="quest-n-score-container">
+                <div id="score-container">
+                    Score: <div id="score-count"></div>
+                </div>
+                <div id="quest-container">
+                    Question:  <span id="quest-count"></span> /
+                    <span id="total-quest"></span>
+                </div>    
+            </div>
+            <div id="question-container">2019 JAMB, MATHEMATICS</div>
+            <div class="options-container">
+                <!-- Without radio button -->
+                <!-- <div class="option-a">
+                    <span id="option-a">a. </span><span id="answer-a"></span>
+                </div>
+                <div class="option-b">
+                    <span id="option-b">b. </span><span id="answer-b"></span>
+                </div>
+                <div class="option-c">
+                    <span id="option-c">c. </span><span id="answer-c"></span>
+                </div> -->
+                <!-- Without radio button end-->
+
+                <!-- With radio button -->
+                <div class="option-a">
+                    <span id="option-a">
+                        <input type="radio" name="options" id="a">
+                    </span><span id="answer-a"></span>
+                </div>
+                <div class="option-b">
+                    <span id="option-b">
+                        <input type="radio" name="options" id="b">
+                    </span><span id="answer-b"></span>
+                </div>
+                <div class="option-c">
+                    <span id="option-c">
+                        <input type="radio" name="options" id="c">
+                    </span><span id="answer-c"></span>
+                </div>
+                <!-- With radio button end-->
+
+            </div>
+            <div class="controls-container">
+                <div id="try-again">TRY AGAIN</div>
+                <div id="next">NEXT</div>
+                <div id="start">START</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
